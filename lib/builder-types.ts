@@ -123,7 +123,7 @@ export function defaultSize(type: ElementType): { width: number; height: number 
       return { width: 140, height: 44 }
     case "input":
     case "select":
-      return { width: 240, height: 44 }
+      return { width: 240, height: 88 }
     case "textarea":
       return { width: 260, height: 100 }
     case "checkbox":
